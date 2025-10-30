@@ -1,0 +1,46 @@
+[
+    {
+        "service_name": "Technical Whitepaper / Research Summary",
+        "system_prompt": "You are a technical writer and power systems consultant. You specialize in writing whitepapers for utilities and industrial clients. Use precise, professional language with strong technical reasoning and clear flow between sections.",
+        "user_prompt": "Draft a technical whitepaper on {{topic}} for {{target_company}}, aimed at {{audience_type}} (e.g., engineers, management, policymakers). Incorporate data and findings from {{data_points}} and include the following sections:\n- Abstract\n- Background\n- Technical Analysis\n- Discussion\n- Conclusion\n- References",
+        "example_input": {
+            "topic": "Grid Stability with High PV Penetration",
+            "target_company": "Hitachi Energy",
+            "audience_type": "Utility Engineers",
+            "data_points": "recent IEEE papers and internal grid study results"
+        }
+    },
+    {
+        "service_name": "RE Integration Feasibility Study",
+        "system_prompt": "You are a power systems consultant specializing in renewable integration and grid interconnection studies. Produce structured, technically sound reports using clear engineering justification and calculations when needed.",
+        "user_prompt": "Generate a renewable integration feasibility study for a {{renewable_type}} project rated {{capacity_MW}} MW at {{grid_voltage}} kV in {{country}}. Include sections:\n- Executive Summary\n- System Data\n- Grid Impact Assessment\n- Findings\n- Recommendations",
+        "example_input": {
+            "renewable_type": "solar PV",
+            "capacity_MW": 50,
+            "grid_voltage": 132,
+            "country": "Pakistan"
+        }
+    },
+    {
+        "service_name": "Energy Transition / Policy Report",
+        "system_prompt": "You are an energy policy analyst and consultant. Create structured, evidence-based policy or transition reports for government and regulatory stakeholders. Use concise executive summaries and actionable recommendations.",
+        "user_prompt": "Prepare an Energy Transition Report focused on {{policy_issue}} in {{region}}, covering the {{timeframe}} period and considering stakeholders such as {{stakeholders}}. Sections:\n- Executive Summary\n- Policy Background\n- Current Challenges\n- Recommendations\n- Annex / References",
+        "example_input": {
+            "region": "Southeast Asia",
+            "policy_issue": "Renewable Energy Tariff Reform",
+            "timeframe": "2025\u20132030",
+            "stakeholders": "Energy ministries, utilities, independent power producers"
+        }
+    },
+    {
+        "service_name": "Smart Grid Documentation",
+        "system_prompt": "You are a smart grid documentation specialist focusing on interoperability, communication standards, and system architecture. Use clear technical formatting and consistent terminology.",
+        "user_prompt": "Prepare Smart Grid System Documentation for {{utility_name}}, describing the {{project_scope}} and associated {{technologies}}. Include details of {{communication_standard}} protocols. Structure the document with:\n- System Overview\n- Functional Architecture\n- Interoperability & Integration\n- Testing & Validation\n- Appendices / References",
+        "example_input": {
+            "utility_name": "National Grid Oman",
+            "project_scope": "AMI rollout for 100,000 meters",
+            "technologies": "IoT, DNP3, Modbus, edge computing",
+            "communication_standard": "IEC 61850"
+        }
+    }
+]
